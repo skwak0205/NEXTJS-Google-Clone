@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Avatar from '../components/Avatar';
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
           {/* Icon */}
 
           {/* Avatar */}
+          <Avatar url='https://lh3.googleusercontent.com/ogw/ADea4I7fUwq5gjrt3CNl8mvmTtOB3jFyGhipeJDWORYtbw=s83-c-mo' />
         </div>
       </header>
 
