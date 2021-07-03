@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import { useRef } from 'react';
 import { MicrophoneIcon, SearchIcon, XIcon } from '@heroicons/react/solid';
 import Avatar from './Avatar';
+import HeaderOptions from './HeaderOptions';
 
 const Header = () => {
   const router = useRouter();
@@ -52,6 +53,8 @@ const Header = () => {
           url='https://lh3.googleusercontent.com/ogw/ADea4I7fUwq5gjrt3CNl8mvmTtOB3jFyGhipeJDWORYtbw=s83-c-mo'
         />
       </div>
+
+      <HeaderOptions />
     </header>
   );
 };
