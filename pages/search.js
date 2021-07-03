@@ -25,7 +25,7 @@ const Search = ({ results }) => {
 export default Search;
 
 export async function getServerSideProps(context) {
-  const useDummyData = true;
+  const useDummyData = process.env.REACT_APP_USE_DUMMY;
   const startIndex = context.query.start || '0';
 
   const data = useDummyData
